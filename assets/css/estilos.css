@@ -1,0 +1,66 @@
+
+html {
+  background-color: rgb(217, 206, 218);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.portada {
+  width: 100%;
+  margin: 35px 0;
+}
+
+.texto-encima {
+  width: 350px;
+  position: absolute;
+  top: 70%; 
+  left: 60%;  
+  color: rgb(7, 7, 6); 
+  font-size: 30px; 
+  font-weight: lighter;
+  text-align: center ;
+  font-style: italic;
+}
+
+.contenedor-imagen {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.productos {
+  width: 50%;
+  height: 100%;
+}
+
+.texto-derecha { 
+  display: inline-block;
+  position: relative;
+  bottom: 50%;
+  left: 17%;
+  font-size: 20px;
+} 
+
+.pie-de-pagina {
+  background-color: rgb(220, 221, 203);
+  border: solid rgb(22, 21, 22);
+  height: 50px;
+}
+    
+.texto {
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  top: -8px;
+  font-size: 20px;
+}
+
